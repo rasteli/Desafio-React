@@ -1,0 +1,26 @@
+.table-container {
+  margin: 15px;
+  min-width: 1000px;
+  border: var(--border);
+}
+
+.table-container .table {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: var(--border);
+}
+
+.table-container .table thead tr th {
+  width: 16%;
+  padding: 10px;
+  border-left: var(--border);
+  background-color: rgb(238, 238, 238);
+}
+
+.table-container .table tbody tr .table-data {
+  padding: 10px;
+  text-align: center;
+  border-bottom: var(--border);
+  border-left: var(--border);
+}
