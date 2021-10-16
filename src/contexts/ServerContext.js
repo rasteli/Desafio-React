@@ -18,7 +18,7 @@ export default function ServerProvider({ children }) {
     }
 
     getServers()
-  }, [servers])
+  }, [])
 
   function selectServer(e, index) {
     const checked = e.target.checked
